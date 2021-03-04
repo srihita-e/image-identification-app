@@ -20,14 +20,30 @@
     <img src="logo.gif">
     </h2>
     </div>
-    <div class="col-sm-12 col-xs-12 main_div">
+    <div class="col-sm-6 col-xs-12 main_div">
       <label>Webcam View - </label>
       <div id="camera"></div>
-      <br><br>
+
       <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
+    </div>
+
+    <div class="col-sm-6 col-xs-12 main_div">
+      <label>Snapshot - </label>
+      <div id="result"></div>
+
+      <button onclick="check();" class="btn btn-success">Identify Image</button>
     </div>
     </center>
 
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif">
+        <span id="object_name"></span>
+      </h4>
+    </div>
+  <div class="copy_right_footer">
+    Developed by - Srihita
+  </div>
 
     
 <script src="main.js"></script>
